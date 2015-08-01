@@ -8,3 +8,5 @@ EXPOSE 11211
 USER daemon
 
 ENTRYPOINT memcached
+
+CMD ["memcached &"]
